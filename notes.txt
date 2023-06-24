@@ -6,3 +6,9 @@
 - Templates describe state of the infra
 
 - A change set allows you to see how changes will impact your existing resources.
+
+
+- To use these templates go to AWS Cloudformation
+- Upload your file either locally or using S3
+- Be careful, when updating stacks, some resources are deleted and recreated, which may cause data loss.
+- Use change set to avert such cases.
