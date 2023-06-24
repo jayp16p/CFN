@@ -12,3 +12,4 @@
 - Upload your file either locally or using S3
 - Be careful, when updating stacks, some resources are deleted and recreated, which may cause data loss.
 - Use change set to avert such cases.
+- check change-set.yaml file: in cases of delete and recreate take note of "Replacement", if true, it will delete and recreate
