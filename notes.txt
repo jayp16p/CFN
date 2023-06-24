@@ -1,0 +1,8 @@
+-- cloud formation is specific to AWS
+-- it is also similar to terraform, but terminologies are more specific to AWS
+
+- Templates are involved (YAML or JSON)
+- Cloudformation read template as an input
+- Templates describe state of the infra
+
+- A change set allows you to see how changes will impact your existing resources.
